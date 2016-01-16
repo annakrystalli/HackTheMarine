@@ -1,0 +1,30 @@
+---
+title: "P1 README"
+author:
+date: 
+output: html_document
+---
+
+## P1 Habitat_Type_Maps
+
+### Participants: Anna Krystalli, Jason Griffiths, Paul Richards
+
+### Summary:
+
+The MMO want to know the spatial distribution of habitats around the UK coastline. They have some information but missing much. They do however have a variety of more widely distributed spatial data on species and environmental parameter. We aim to use these to predict the unknown habitats in regions around the UK coastline. We will use a machine learning species distribution modelling approach (random forest) which will allow us to say how certain we are about the predictions we make about habitat classification. We then want to build a shiny up to visualise and interact with predicted probabilistic maps of habitat type distribution.
+
+
+#### Working mainly in R
+
+1) **Model: Predict habitat type from data:**
+    - Decide on data
+    - Collect
+    - spatial match & process
+    - Fit model -> Random forest
+    - Cross validate
+    - Predict
+ 
+2) **Probability Mapper**
+    - Shiny app
+        + Each layer will map spatial distribution of probability of habitat type occurrence (probability to be represented by layer opacity)
+        + App will allow multiple layer to be overlayed to visualised
