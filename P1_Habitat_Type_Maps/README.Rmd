@@ -26,5 +26,11 @@ The MMO want to know the spatial distribution of habitats around the UK coastlin
     - Shiny app
         + Each layer will map spatial distribution of probability of habitat type occurrence (probability to be represented by layer opacity)
         + App will allow multiple layer to be overlayed to visualised
-        
-        
+
+***
+
+## RESOURCES
+
+### INFO
+
+Conside PDF of UK Marine Habitat Types: [ukmarinesac.org.uk](ukmarinesac.org.uk)
