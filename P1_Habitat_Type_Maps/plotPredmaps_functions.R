@@ -45,7 +45,7 @@
       poly <- Grid2Polygons(s, zcol = 1)
       
       
-      leaflet(data = data) %>%  addRasterImage(r,)
+# PLOTS ###
 
       map_uk <- get_map("UK", zoom = 5)
   
@@ -63,5 +63,8 @@
         geom_polygon(data=data.frame(r), aes(x=s1, y=s2, fill=layer, alpha=1))
       
       ggmap(map_uk) + 
-        geom_polygon(data=data.frame(r))     
+        geom_polygon(data=data.frame(r))    
+      
+      
+      # Leaflet plot
   
