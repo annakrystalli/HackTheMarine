@@ -1,5 +1,8 @@
 # HackTheMarine
-HackTheMarine Project Repo
+
+##HackTheMarine Project Repo
+
+**Hack Pad** http://bit.ly/hackthemarinenotes
 
 If you add to repo, please create a folder for your project. Add a short description in this main **`READ.ME`**. Details of each project can then be logged on individual project **`READ.ME`**s.
 
